@@ -114,6 +114,10 @@ To POST to a route, execute the following CURL command:
 ### view logs inside a container ###
 ```docker logs -f [name]```
 
+### run docker compose ###
+```docker-compose up```
+
+
 ### Upload your image to docker hub ###
 ```docker tag firstimage YOUR_DOCKERHUB_NAME/firstimage```
 ```docker push YOUR_DOCKERHUB_NAME/firstimage```
